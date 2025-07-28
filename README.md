@@ -4,7 +4,7 @@ This repository contains the code and analysis for the project:
 
 Sepsis is a leading cause of ICU mortality, and early prediction can dramatically improve patient outcomes. In this project, we systematically compared seven supervised machine learning algorithms (Random Forest, XGBoost, LightGBM, kNN, Naive Bayes, SVM, Logistic Regression) across four distinct feature engineering strategies, highlighting best practices for early sepsis detection.
 
-## Dataset
+## 1. Dataset
 Due to size and licensing constraints, the raw datasets are not stored in this repository. We use the PhysioNet/Computing in Cardiology Challenge 2019 dataset, which can be downloaded from PhysioNet: https://www.kaggle.com/datasets/salikhussaini49/prediction-of-sepsis
 Once downloaded, place the raw .csv files into the `data/raw` folder.
 
@@ -32,7 +32,7 @@ setwd("path/to/early-sepsis-pred")
 source("scripts/preprocessing/clean_raw_data.R")
 source("scripts/preprocessing/create_24h_summary_dataset.R")
 ```
-The file `create_baseline_dataset.R` includes a commented out line that allows missing values to be listwise deleted.
+The file `create_baseline_dataset.R` includes a commented-out line that allows missing values to be listwise deleted.
 
 ## 4. Train Models
 Each model script will train using 5-fold cross-validation and output metrics to the console.
