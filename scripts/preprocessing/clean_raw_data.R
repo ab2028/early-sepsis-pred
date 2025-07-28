@@ -2,7 +2,7 @@ library(data.table)
 library(dplyr)
 
 #Load raw dataset
-df <- fread("~/Desktop/mathr/general/rawdataset.csv")
+df <- fread("data/raw/rawdataset.csv")
 
 #Remove unnecessary or unused columns
 remove_cols <- c("V1", "Hour", "HospAdmTime", "EtCO2", "Bilirubin_direct", "TroponinI", "Fibrinogen", "Hct",    "BaseExcess", "AST", "Alkalinephos", "Calcium", "Chloride",
