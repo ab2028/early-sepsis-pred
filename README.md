@@ -58,7 +58,7 @@ early-sepsis-pred/
 ├── scripts/
 │   ├── preprocessing/  # Data cleaning & feature engineering scripts
 │   ├── models/         # Individual ML model training scripts
-│   └── results/        # Master scripts for combined metrics
+│   └── analysis/        # Master scripts for combined metrics, SHAP plots, data histograms
 ├── results/            # (Optional) Saved metrics and plots
 └── README.md
 ```
