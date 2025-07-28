@@ -32,7 +32,7 @@ setwd("path/to/early-sepsis-pred")
 source("scripts/preprocessing/clean_raw_data.R")
 source("scripts/preprocessing/create_24h_summary_dataset.R")
 ```
-The file `create_baseline_dataset.R` includes a commented out line 
+The file `create_baseline_dataset.R` includes a commented out line that allows missing values to be listwise deleted.
 
 ## 4. Train Models
 Each model script will train using 5-fold cross-validation and output metrics to the console.
