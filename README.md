@@ -13,5 +13,5 @@ Run the preprocessing scripts (below) to generate cleaned and engineered dataset
 ##Setup
 
 ###Clone the repository
-`git clone https://github.com/<your-username>/early-sepsis-pred.git
-cd early-sepsis-pred`
+```git clone https://github.com/<your-username>/early-sepsis-pred.git
+cd early-sepsis-pred```
