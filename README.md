@@ -1,6 +1,6 @@
 # early-sepsis-pred
 This repository contains the code and analysis for the project:
-"PAPER TITLE", a benchmarking study of classical machine learning models for early sepsis prediction using ICU electronic health record (EHR) data.
+"Early Prediction of Sepsis Onset: Evaluating Supervised Machine Learning Techniques", a benchmarking study of classical machine learning models for early sepsis prediction using ICU electronic health record (EHR) data.
 
 Sepsis is a leading cause of ICU mortality, and early prediction can dramatically improve patient outcomes. In this project, we systematically compared seven supervised machine learning algorithms (Random Forest, XGBoost, LightGBM, kNN, Naive Bayes, SVM, Logistic Regression) across four distinct feature engineering strategies, highlighting best practices for early sepsis detection.
 
